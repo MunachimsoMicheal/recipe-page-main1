@@ -1,0 +1,141 @@
+@font-face {
+    font-family: young-serif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.cot{
+    background-color: white;
+    height: 240vh;
+    width: 900px;
+    border-radius: 40px;
+    padding: 0.1px;
+    margin: auto;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    width: 820px;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: start;
+}
+img{
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+    height: 50vh;
+    width: 850px;
+}
+.ptime{
+    margin-left: 25px;
+    color: purple;
+    font-size: 35px;
+}
+.instruct   {
+    padding: 10px;
+}
+p{
+    margin: 20px;
+    font-size: 25px;
+}
+ol{
+    font-size: 25px;
+    margin: 15px;
+}
+ul{
+    font-size: 25px;
+    margin: 15px;
+}
+.title{
+    font-family: young-serif;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.ingre{
+    font-family: young-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    width: 740px;
+}
+.instruct{
+    font-family: young-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.nutri{
+    font-family: young-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-left: 20px;
+    color: hsl(14, 45%, 36%);
+}
+table{
+    font-size: 25px;
+    border-spacing: 0;
+    width: 610px;
+    height: 170px;
+    margin-left: 30px;
+}
+td:nth-child(2){
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding-left: 520px;
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+td:nth-child(1){
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+tr{
+    margin: 10px;
+}
+.attribution{
+    width: 400px;
+    margin: auto;
+}
+@media (max-width: 500px){
+    body{
+        background-color: white;
+    }
+    *{
+        max-width: 427px;
+        margin: 0;
+    }
+    hr{
+        margin-top: 35px;
+        margin-bottom: 20px;
+        width: 300px;
+        margin-left: 60px;
+    }
+    td:nth-child(2){
+        border-bottom: 1px solid hsl(30, 10%, 34%);
+        padding-left: 80px;
+        color: hsl(14, 45%, 36%);
+        font-weight: 800;
+    }
+    img{
+        height: 40vh;
+        max-width: 456px;
+        margin-left: -1px;
+    }
+    .prep{
+        background-color: hsl(330, 100%, 98%);
+        width: 820px;
+        margin: auto;
+        border-radius: 5px;
+        justify-content: start;
+        margin-left: 15px;
+    }
+}
